@@ -276,6 +276,9 @@ padding-top: 30px;
 
     background-color:rgb(56, 43, 30 );
 text-align: right;
+display: flex;
+justify-content: center;
+align-items: center.;
     
     
     
@@ -293,13 +296,49 @@ form input,form textarea{
 margin-bottom: 10px;
 padding: 10px;
 border: none;
-border-radius: 5px;
-}
+border-radius: 5px;}
+/* }
 .contact{
 
      background-color:rgb(56, 43, 30 );
-}
+     height: 800px;
+} */
 .but{
 border-radius: 20px;
+background-color:rgb(56, 43, 30 );
+color: white;
+height: 10px;
+
+
+}
+.info{
+color: white;
+font-size: 20px;
+font-family: serif;
+text-align: left; 
+padding: 20px;
+padding-left: 80px;
+padding-top: 30px;
+
+}
+.for{
+ display: flex;
+ flex-direction: column;
+ width: 200px;
+ text-align: right;
+ padding-left: 1000px;
+ 
+
+
+}
+.contact{
+    background-color:rgb(56, 43, 30 );
+height: 400px;
+
+}
+.footer{
+background-color:rgb(56, 43, 30 ); 
+color: white;
+text-align: center;
 
 }
