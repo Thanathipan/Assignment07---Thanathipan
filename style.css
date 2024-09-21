@@ -1,0 +1,305 @@
+*{ margin: o;
+    padding: 0px;
+
+font-family: sans-serif
+}
+
+
+.hero{
+display: flex;
+justify-content: space-between;
+margin: 0 50px;
+background-color: rgb(82, 66, 47);
+color: white;
+font-size: medium;
+font-weight: 500;
+width: 97%;
+}
+
+ul,li{
+    display: flex;
+padding: 0 50px;
+font-weight: 500;
+display: inline-block;
+}
+.coffee{
+    padding: 19px 0px 0px 0px ;
+font-weight: 500;
+font-size: 26px;
+}
+    
+.nav{
+    font-family:fantasy;
+}
+li a:hover{
+    color: crimson;
+    padding: 10px 20px;
+    border: 2px solid;
+    border-radius: 20px;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    margin-left: 25px;
+    font-size: 24px;
+}
+i {
+    padding: 28px 30px ;
+}
+.button{
+    text-decoration: none;
+}
+
+.heroimage{
+background-color: rgb(64, 49, 40);
+height: 300px;
+
+
+}
+.new{
+   padding-top: 50px;
+   color: #c9912a;
+   font-size: 20px;
+   text-align: center;
+}
+
+.second{
+    height: 250px;
+    width: 200px;
+    float: right;
+    padding-right: 200px;
+    
+}
+
+.paraone{
+color: white;
+font-size: 20px;
+text-align: center;
+
+
+}
+
+.paratwo{
+color: white;
+text-align: center;
+}
+
+.button1{
+    background-color:rgb(64, 49, 40);
+    border-radius: 30px;
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+.button2{
+    color: white;
+    border-radius: 30px;
+     background-color:rgb(64, 49, 40);
+     text-align: center;
+     
+}
+
+button:hover{
+color: #c9912a;
+padding: 10px 20px;
+    border: 2px solid;
+    border-radius: 20px;
+
+}
+.yellow{
+text-align: center;
+
+}
+.aboutus{
+ background-color: rgb(73, 51, 29);
+height: 300px;
+}
+.head{
+
+    padding-top: 50px;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+
+}
+.para3{
+    color: white;
+text-align:center;
+
+}
+.img2{
+float: left;
+height: 230px;
+padding-left: 280px;
+padding-top: 50px;
+}
+/* .head:after{
+    content: "";
+    position: absolute;
+    left: 25px;
+    bottom: 0;
+    border: 3px solid yellow;
+    width: 10px;
+    padding-bottom: 300px;
+} */
+.menu{
+ background-color:rgb(56, 43, 30 );
+ width: 100%;
+ margin: auto;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ height: 300px;
+ /* padding: 10px 80px; */
+
+}
+.menu-2{
+
+    background-color:rgb(56, 43, 30 );
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* padding: 10px 100px; */
+height: 400px;
+
+}
+.menu img{
+    height: 180px;
+    
+
+}
+
+.menu-2 img{
+    height: 180px;
+    
+
+}
+
+
+.un{
+   width: 10px; 
+   height: 2px;
+   background-color: #c9912a;
+}
+
+.menu-2 div{
+    padding: 10px 100px;
+    text-align: center;
+    color: white;
+}
+.menu div{
+    padding: 10px 100px;
+    text-align: center;
+    color: white;
+}
+.our{
+    background-color:rgb(56, 43, 30 ) ;
+
+    /* background-color:rgb(56, 43, 30 ); */
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* padding: 10px 100px; */
+height: 50px;
+color: white;
+padding-top: 10px;
+
+}
+.brand{
+    height: 180px;
+display: flex;
+padding: 100px;
+width: 100%;
+
+flex-direction: row;
+justify-content: center;
+/* padding: 10px 100px; */
+
+color: white;
+padding: 10px 1px;
+margin: 20px 50px;
+opacity: 0.4;
+
+}
+.trust{
+    text-align: center;
+    padding: 0px;
+    font-family:  sans-serif;
+}
+.gallery{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color:rgb(59, 44, 28) ;
+width: 100%;
+}
+.gallery img{
+ width: 350px;
+ height: 200px;
+ cursor: pointer;
+ margin: 10px;
+ border-radius: 13px;
+ box-shadow: 4px 7px 7px 0px;
+ transition: 400ms;
+
+
+}
+.gal{
+    text-align: center;
+    font-family: cursive;
+color: white;
+    background-color:rgb(56, 43, 30 );
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* padding: 10px 100px; */
+height: 80px;
+padding-top: 30px;
+
+}
+.gallery img:hover{
+    border-radius: 20px;
+    filter:brightness(2);
+    transform: scale(1.03);
+}
+.container{
+
+
+    background-color:rgb(56, 43, 30 );
+text-align: right;
+    
+    
+    
+}
+.container h1{
+text-align: center;
+margin-bottom: 20px;
+
+
+
+
+}
+form input,form textarea{ 
+
+margin-bottom: 10px;
+padding: 10px;
+border: none;
+border-radius: 5px;
+}
+.contact{
+
+     background-color:rgb(56, 43, 30 );
+}
+.but{
+border-radius: 20px;
+
+}
