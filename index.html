@@ -1,146 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>Coffee</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
-</head>
-<body>
-    <div class="hero">
-        <i class="fa fa-coffee" aria-hidden="true"></i>
-            <div class="coffee"><header>Coffee</header></div>
-        <div class="nav">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Coffee Shop Assignment</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="https://cdn.pixabay.com/photo/2013/07/13/09/51/drink-156144_1280.png">
+    <body>
+        <!-- Navigation Section -->
+        <section class="navbar-container">
+            <header class="navbar-content">
+                <div class="logo">
+                    <h1 class="nav-heading">☕Coffee</h1>
+                </div>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Menu</a></li>
-                    <li><a href="#">Brand</a></li>
-                    <li><a href="#">Gallery</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#menu" class="nav-link">Menu</a></li>
+                    <li><a href="#brand" class="nav-link">Brand</a></li>
+                    <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
                 </ul>
-        </div>
-    </div>  <br>
-            
-        <div class="heroimage">
-             <img class="second" src="Hero.png">
-             <h4 class="new">Best coffee</h4>
-                
-                    <p class="paraone">Make your day great with our <br><span>special coffee!</span> </p>
-                    <P class="paratwo">Welcome to our coffee paradise, whereevery bean tells <br><span> a story and every cup sparks joy </span></P>
-                
-                    
-                      <div class="yellow" >
-                        <button class="button1">Order Now</button>
-                        <button class="button2" >Contact us </button>
-                    </div>
-        </div> <br>
-        <div class="aboutus">
-            <img class="img2" src="About.png">
-                <h2 class="head">ABOUT US  </h2>
-                <div class="un"></div>
-                <P class="para3">At coffee House in Berndrof,Germony,we pride ourselves on being <br><span>a go-to desination for coffee lovers and conversation seekers alike. 
-                  <br> <span> we<sup>,</sup>re dedicated to providing an expectional coffee experience in a<br></span> cazy and inviting atmosphere, where guests can relax,unwind ,and<br> <span> their time in comfort</span> </P>
-        </div><br>
-        <div class="our"> <h2 class="our">Our menu</h2></div>
-        <div class="menu">
-           
-            <div>
-                <img src="menu-1.webp" >
-                <h2>Hot Beverages</h2>
-                <p>Wide range of Steaming hot coffee to make you fresh and light.</p>
+            </header>
+        </section>
+
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="left-section">
+                <h2 class="hero-heading">Best Coffee</h2>
+                <h2 class="note">Make your day great with our special coffee!</h2>
+                <p class="hero-discription">Welcome to our coffee paradise, where every bean tells a story and every cup sparks joy.</p>
+                <a href="#menu" class="hero-button"><button type="button" class="hero-btn">Order Now</button></a>
+                <a href="#contact" class="hero-button"><button type="button" class="hero-btn">Cantact Us</button></a>
             </div>
-            <div>   
-                <img src="menu-2.png">
-                <h2>Cold Beverages</h2>
-                <p>Creamy and frothy cold coffee to make you cool.</p>
+            <div class="right-section">
+                <img class="hero-img" src="Images/Hero.png" alt="A cup of coffee with splash">
             </div>
-            <div>
-                <img src="menu-3.png">
-                <h2>Refreshment</h2>
-                <p> Fruit and icy refreshing drink to make feel refresh</p>
+        </section>
+
+        <!-- About Us Section -->
+        <section class="about-us" id="about">
+            <div class="about-image">
+                <img class="about-img" src="Images/About.png" alt="A Cup of coffee">
             </div>
-        </div>
-        <div class="menu-2">
-            <div>
-                <img src="menu-4.png">
-                <h2>Special Combos</h2>
-                <p>Your favorite eating and drinking combations.</p>
+            <div class="about-content">
+                <h2 class="about-heading">ABOUT US</h2>
+                <span class="span"></span>
+                <p class="about-discription">
+                    At Coffee House in Berndorf, Germany, we pride ourselves on being a go-to destination for coffee lovers and conversation seekers alike.We're dedicated to providing an exceptional coffee experience in a cozy and inviting atmosphere, where guests can relax, unwind, and enjoy their time in comfort.
+                </p>
             </div>
-            <div>
-                <img src="menu-5.png">
-                <h2>Dessert</h2>
-                <p> Satiate your palate and take you on a culinary treat.</p>
+        </section>
+
+        <!-- Menu Section -->
+        <section class="menu" id="menu">
+            <h2 class="menu-heading">OUR MENU</h2>
+            <span></span>
+            <div class="menu-items">
+                <div class="food">
+                    <img src="Images/menu-1.webp" alt="Hot Beverages Image" class="menu-img">
+                    <h3 class="img-heading">Hot Beverages</h3>
+                    <p class="menu-discription">Wide range of Steaming hot coffee to make you fresh and light.</p>
+                </div>
+                <div class="food">
+                    <img src="Images/menu-2.png" alt="Cold Beverages Image" class="menu-img">
+                    <h3 class="img-heading">Cold Beverages</h3>
+                    <p class="menu-discription">Creamy and frothy cold coffee to make you cool.</p>
+                </div>
+                <div class="food">
+                    <img src="Images/menu-3.png" alt="Refreshment Juice Image" class="menu-img">
+                    <h3 class="img-heading">Refreshment</h3>
+                    <p class="menu-discription">Fruit and icy refreshing drink to make feel refresh.</p>
+                </div>
+                <div class="food">
+                    <img src="Images/menu-4.png" alt="Special Combos Image" class="menu-img">
+                    <h3 class="img-heading">Special Combos</h3>
+                    <p class="menu-discription">Your favorite eating and drinking combations.</p>
+                </div>
+                <div class="food">
+                    <img src="Images/menu-5.png" alt="Dessert Image" class="menu-img">
+                    <h3 class="img-heading">Dessert</h3>
+                    <p class="menu-discription">Satiate your palate and take you on a culinary treat.</p>
+                </div>
+                <div class="food">
+                    <img src="Images/menu-6.png" alt="Burger & French Fries Image" class="menu-img">
+                    <h3 class="img-heading">Burger & French Fries</h3>
+                    <p class="menu-discription">Quick bites to satisfy your small size hunger.</p>
+                </div>
             </div>
-            <div>
-                <img src="menu-6.png">
-                <h2>Burger & French Fries </h2>
-                <p>Quick bites to satisfy your small size hunger.</p>
+        </section>
+
+        <!-- Brand Section -->
+        <section class="brand" id="brand">
+            <h2 class="brand-heading">OUR TRUSTED BRAND</h2>
+            <span></span>
+            <div class="brand-images">
+                <img src="Images/brandImg1.png" alt="A Coffee Brand Logo" class="brand-img">
+                <img src="Images/brandImg2.png" alt="A Coffee Brand Logo" class="brand-img">
+                <img src="Images/brandImg3.png" alt="A Coffee Brand Logo" class="brand-img">
+                <img src="Images/brandImg4.png" alt="A Coffee Brand Logo" class="brand-img">
+                <img src="Images/brandImg5.png" alt="A Coffee Brand Logo" class="brand-img">
             </div>
-        </div><br><br><br>
-        <h2 class="trust">OUR TRUSTED BRANDS</h2>
-        <div class="brand">
-          
-            <img src="brandImg1.png">
-            <img src="brandImg2.png">
-            <img src="brandImg3 (1).png">
-            <img src="brandImg4.png">
-            <img src="brandImg5.png">
+        </section>
 
-        </div><br><br>
-
-            <h2 class="gal">GALLERY</h2>
-        <div class="gallery">
-            <img src="gallery-1.jpg">
-            <img src="gallery-2.jpg">
-            <img src="gallery-3.jpg">
-            <img src="gallery-4.jpg">
-            <img src="gallery-5.jpg">
-            <img src="gallery-6.jpg">
-            <img src="gallery-7.jpg">
-            <img src="gallery-8.jpg">
-            <img src="gallery-9.jpg">
-            <img src="gallery-10.jpg">
-            <img src="gallery-11.jpg">
-            <img src="gallery-12.jpg">
-            <img src="gallery-13.jpg">
-            <img src="gallery-14 (1).jpg">
-            <img src="gallery-15.jpg">
-            <img src="gallery-16.jpg">
-        
-
-        </div><br><br>
-
-     
-
-         <div class="container">
-            <div class="info">
-                <h1> CONTACT US</h1>
-                <p>No57, 2nd Cross Street Vavuniya, Srilanka.<br><br>
-                    info@coffeeshopwebsite.com,<br><br>
-                    +94011223344<br><br>
-                    Monday - Friday: 9:00 AM - 5:00 PM<br><br>
-                    Saturday: 10:00 AM - 3:00 PM<br><br>
-                    Sunday: Closed<br><br>
-                    www.Coffeeshop.com<br></p><br>
-
+        <!-- Gallery Section -->
+        <section class="gallery" id="gallery">
+            <h2 class="gallery-heading">GALLERY</h2>
+            <span></span>
+            <div class="gallery-images">
+                <img src="Images/gallery-1.jpg" alt="Our Food Products" class="gallery-img">
+                <img src="Images/gallery-2.jpg" alt="Our Food Products" class="gallery-img">
+                <img src="Images/gallery-3.jpg" alt="Our Food Products" class="gallery-img">
+                <img src="Images/gallery-4.jpg" alt="Our Food Products" class="gallery-img">
+                <img src="Images/gallery-5.jpg" alt="Our Food Products" class="gallery-img">
+                <img src="Images/gallery-6.jpg" alt="Our Food Products" class="gallery-img">
+                <img src="Images/gallery-7.jpg" alt="Our Food Products" class="gallery-img">
+                <img src="Images/gallery-8.jpg" alt="Our Food Products" class="gallery-img">
+                <img src="Images/gallery-9.jpg" alt="Our Food Products" class="gallery-img">
+                <img src="Images/gallery-10.jpg" alt="Our Food Products" class="gallery-img">
+                <img src="Images/gallery-11.jpg" alt="Our Food Products" class="gallery-img">
+                <img src="Images/gallery-12.jpg" alt="Our Food Products" class="gallery-img">
+                <img src="Images/gallery-13.jpg" alt="Our Food Products" class="gallery-img">
+                <img src="Images/gallery-14.jpg" alt="Our Food Products" class="gallery-img">
+                <img src="Images/gallery-15.jpg" alt="Our Food Products" class="gallery-img">
+                <img src="Images/gallery-16.jpg" alt="Our Food Products" class="gallery-img">
             </div>
-            <form class="for">
-                <input type="text" placeholder="Your name">
-                <input type="text" placeholder="Your Mobile">
-                <input type="text" placeholder="Your email">
-                <input type="text" placeholder="Your message">
-                <button>submit</button>
-            </form>
-         </div>
+        </section>
 
-        <div class="footer">
-<p> <i class="fa fa-copyright" aria-hidden="true"></i>All rights reserved</p>
+        <!-- Contact Us Section -->
+        <section class="contact" id="contact">
+            <div class="contact-top">
+                <h2 class="contact-heading">CONTACT US</h2>
+                <span></span>
+            </div>
+            <div class="contact-content">
+                <div class="contact-left">
+                    <p class="contact-discription">No57, 2nd Cross Street Vavuniya, Srilanka.</p>
+                    <p class="contact-discription">info@coffeeshopwebsite.com</p>
+                    <p class="contact-discription">+94 112 233 445</p>
+                    <p class="contact-discription">Monday - Friday : 9:00 AM - 3:00 PM</p>
+                    <p class="contact-discription">Saturday : 10:00 AM - 3:00 PM</p>
+                    <p class="contact-discription">Sunday : Closed</p>
+                    <p class="contact-discription">www.Coffeeshop.com</p>
+                </div>
+                <form class="contact-right">
+                    <input type="text" class="form personal" placeholder="Your Name">
+                    <input type="number" class="form personal" placeholder="Your Mobile">
+                    <input type="text" class="form personal" placeholder="Your E-mail">
+                    <textarea class="form textarea" placeholder="Your Message"></textarea>
+                    <button type="button" class="form-btn">Submit</button>
+                </form>
+            </div>
+        </section>
 
-        </div>
-
-</body>
-
-
-
-
+        <!-- Footer Section -->
+        <footer class="footer">
+            <p>&COPY; All rights reserved</p>
+        </footer>
+    </body>
 </html>
